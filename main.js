@@ -3787,7 +3787,7 @@ var CLIENT_APPS = [
     {
         name: 'Krupa - Logica',
         uniqueName: 'krupa',
-        clientId: 'fa0f6b3b-d2a5-4cdf-9e58-0c82250f5280',
+        clientId: '6aa51731-d860-4ce1-9db8-f3fe9aebf849',
         redirectUri: 'https://krupa-shankar.github.io/ng-smart-on-fhir/redirect/krupa',
         launchUrl: 'https://krupa-shankar.github.io/ng-smart-on-fhir/launch/krupa',
         scopes: 'launch/patient,offline_access,openid,patient/*.*,profile,fhirUser',
