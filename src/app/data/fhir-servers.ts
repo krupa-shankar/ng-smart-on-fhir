@@ -33,4 +33,6 @@ export const FHIR_SERVERS: FhirServer[] = [
       },
       supportsAccessTypes: true
     }
+
+    //This is the place to configure FHIR servers
 ];

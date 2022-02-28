@@ -40,6 +40,18 @@ export const CLIENT_APPS: ClientApp[] = [
         dashboardDefaultLaunch: 'pou'
     },
     {
+        name: 'Krupa - Logica',
+        uniqueName: 'krupa',
+        clientId: '6aa51731-d860-4ce1-9db8-f3fe9aebf849',
+        redirectUri: 'https://krupa-shankar.github.io/ng-smart-on-fhir/redirect/krupa',
+        launchUrl: 'https://krupa-shankar.github.io/ng-smart-on-fhir/launch/krupa',
+        scopes: 'launch/patient,offline_access,openid,patient/*.*,profile,fhirUser',
+        standalonePatient: true,
+        ehrLaunch: true,
+        server: 'logica',
+        dashboardDefaultLaunch: 'pou'
+    },
+    {
         name: 'Space Delimited Scope - Logica',
         uniqueName: 'scopes',
         clientId: '99678114-64b9-4803-a5f7-024090705bfb',
